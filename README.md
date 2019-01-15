@@ -15,7 +15,7 @@ Hence I created two one-line bash scripts which allow to easily and manually dow
 3. Downgrade to specific version:
    - Execute `./systemd-reset-21_10.sh` if you want to switch to **systemd-229-4ubuntu-21.10**
    - Execute `./systemd-reset-21_11.sh` if you want to switch to **systemd-229-4ubuntu-21.11**
-   - [Optional] You can define the first parameter `$1` to mark the packages `hold` with e.g. `./systemd-reset-XX_XX.sh 1`. By default the packages are not `hold`.
+   - *[Optional] You can set the first parameter to mark all the packages to be `hold` with e.g. `./systemd-reset-XX_XX.sh 1`. By default the packages are not `hold`.*
    
 The script will automatically download the files, install them manually with `dpkg -i` and finally remove the temp folder and the downloaded package files.
    
