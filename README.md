@@ -4,10 +4,9 @@ This repository includes two small bash scripts that up- or downgrade the curren
 - **systemd-229-4ubuntu-21.10**
 
 ## Reason
-With the release of **systemd-229-4ubuntu-21.9** and **>systemd-229-4ubuntu-21.15** some services are no longer starting up correctly because the volatile path creation handled by **systemd-tmpfiles-setup** doesn't create all the necessary paths required by some services (e.g. OpenVPN, SSH, DNSMasq, Lighttpd, ...).
+With the release of **systemd-229-4ubuntu-21.9** and **>=systemd-229-4ubuntu-21.15** some services are no longer starting up correctly because the volatile path creation handled by **systemd-tmpfiles-setup** doesn't create all the necessary paths required by some services (e.g. OpenVPN, SSH, DNSMasq, Lighttpd, ...).
 
-Hence I created two one-line bash scripts which allow to easily and manually downgrade to the last two working versions of systemd that are still handling the volatile paths correctly.
-
+Hence I created two bash scripts which allow to easily and manually downgrade to the last two working versions of systemd that are still handling the volatile paths correctly.
 
 ## Installation
 1. Download the bash files or the package (and extract the included files)
