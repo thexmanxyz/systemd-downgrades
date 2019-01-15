@@ -10,7 +10,7 @@ Hence I created two bash scripts which allow to easily and manually downgrade to
 
 ## Installation
 1. Download the bash files or the package (and extract the included files)
-2. Make the files runnable `sudo chmod +x systemd-reset-21_10.sh` and `sudo chmod +x systemd-reset-21_11.sh`
+2. Make the files executable `sudo chmod +x systemd-reset-21_10.sh` and `sudo chmod +x systemd-reset-21_11.sh`
 3. Downgrade to specific version:
    - Execute `./systemd-reset-21_10.sh` if you want to switch to **systemd-229-4ubuntu-21.10**
    - Execute `./systemd-reset-21_11.sh` if you want to switch to **systemd-229-4ubuntu-21.11**
