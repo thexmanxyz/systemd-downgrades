@@ -20,7 +20,7 @@ Hence I created two one-line bash scripts which allow to easily and manually dow
 The script will automatically download the files, install them manually with `dpkg -i` and finally remove the temp folder and the downloaded package files.
    
 ## Package Repositories / Resources
-The up- / downgrade includes the following packages and repositories:
+The up- / downgrade includes the following packages from the linked repositories:
 - [libpam-systemd](https://launchpad.net/ubuntu/xenial/armhf/libpam-systemd)
 - [libsystemd0](https://launchpad.net/ubuntu/xenial/armhf/libsystemd0)
 - [systemd](https://launchpad.net/ubuntu/xenial/armhf/systemd)
