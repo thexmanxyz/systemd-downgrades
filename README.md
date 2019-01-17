@@ -12,9 +12,9 @@ Hence I created two bash scripts which allow to easily and manually downgrade to
 1. Download the bash files or the package (and extract the included files)
 2. Make the files executable `sudo chmod +x systemd-reset-21_10.sh` and `sudo chmod +x systemd-reset-21_11.sh`
 3. Downgrade to specific version:
-   - Execute `./systemd-reset-21_10.sh` if you want to switch to **systemd-229-4ubuntu-21.10**
-   - Execute `./systemd-reset-21_11.sh` if you want to switch to **systemd-229-4ubuntu-21.11**
-   - *[Optional] You can set the first parameter to mark all the packages to be `hold` with e.g. `./systemd-reset-XX_XX.sh 1`. By default the packages are not `hold`.*
+   - Execute `sudo ./systemd-reset-21_10.sh` if you want to switch to **systemd-229-4ubuntu-21.10**
+   - Execute `sudo ./systemd-reset-21_11.sh` if you want to switch to **systemd-229-4ubuntu-21.11**
+   - *[Optional] You can set the first parameter to mark all the packages to be `hold` with e.g. `sudo ./systemd-reset-XX_XX.sh 1`. By default the packages are not set to `hold`.*
    
 The script will automatically download the files, install them manually with `dpkg -i` and finally remove the temp folder and the downloaded package files.
    
