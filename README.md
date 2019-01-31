@@ -31,4 +31,5 @@ The up- / downgrade includes the following packages from the linked repositories
 - [Launchpad - 1804847](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1804847)
 - [Launchpad - 1804603](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1804603)
 - [Launchpad - 1811580](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1811580)
-- [Armbian - OrangePI](https://forum.armbian.com/topic/8852-ssh-doesnt-work-on-orange-pi-zero)
+- [Armbian - OrangePI (1)](https://forum.armbian.com/topic/8852-ssh-doesnt-work-on-orange-pi-zero)
+- [Armbian - OrangePI (2)](https://forum.armbian.com/topic/9289-ssh-not-working-after-upgrade-orange-pi-lite-armbian_ubuntu_xenial/)
