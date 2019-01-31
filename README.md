@@ -3,6 +3,8 @@ This repository includes two small bash scripts that up- or downgrade the curren
 - **systemd-229-4ubuntu-21.11** or 
 - **systemd-229-4ubuntu-21.10**
 
+**Important:** The issue was fixed with the latest Armbian kernel release. So the script is not necessary anymore but can still be used for systemd or package downgrades. For more information on the fix [see this post](https://forum.armbian.com/topic/9289-ssh-not-working-after-upgrade-orange-pi-lite-armbian_ubuntu_xenial/?do=findComment&comment=71410).
+
 ## Reason
 With the release of **systemd-229-4ubuntu-21.9** and **>=systemd-229-4ubuntu-21.15** some services are no longer starting up correctly because the volatile path creation handled by **systemd-tmpfiles-setup** doesn't create all the necessary paths required by some services (e.g. OpenVPN, SSH, DNSMasq, Lighttpd, ...).
 
